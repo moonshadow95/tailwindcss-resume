@@ -18,6 +18,11 @@ const Home = (props) => (
                 Horror
             </Link>
         </li>
+        <li>
+            <Link to='/tolv'>
+                Tolv
+            </Link>
+        </li>
     </ul>
 );
 
