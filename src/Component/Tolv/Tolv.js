@@ -20,15 +20,18 @@ const Tolv = (props) => (
         <div className='grid grid-cols-2'>
             <div className='h-screen'>
                 <div>
-                    <div><img src="https://tolv.dk/wp-content/uploads/2020/11/home_kitsune-2-1040x1300.jpg"
-                              className='h-full w-full' alt=""/></div>
-                    <div><img src="https://tolv.dk/wp-content/uploads/2020/11/home_portobelloW_arm-1040x1300.jpg"
-                              className='h-full w-full' alt=""/></div>
-                    <div><img src="https://tolv.dk/wp-content/uploads/2020/11/home_kitsune-2-1040x1300.jpg"
-                              className='h-full w-full' alt=""/></div>
+                    <div className='h-screen overflow-hidden'><img
+                        src="https://tolv.dk/wp-content/uploads/2020/11/home_kitsune-2-1040x1300.jpg"
+                        className='h-full w-full' alt=""/></div>
+                    <div className='h-screen overflow-hidden'><img
+                        src="https://tolv.dk/wp-content/uploads/2020/11/home_portobelloW_arm-1040x1300.jpg"
+                        className='h-full w-full' alt=""/></div>
+                    <div className='h-screen overflow-hidden'><img
+                        src="https://tolv.dk/wp-content/uploads/2020/11/home_kitsune-2-1040x1300.jpg"
+                        className='h-full w-full' alt=""/></div>
                 </div>
             </div>
-            <div className='bg-white'>
+            <div className='bg-white h-screen'>
                 <div className='flex flex-col align-center justify-center w-full h-full px-40'>
                     <p className='text-6xl font-bold font-serif mt-auto text-center leading-normal'>
                         Eyes rest from an afternoon in the sun. Smooth textures feel cool on bare feet and skin.
